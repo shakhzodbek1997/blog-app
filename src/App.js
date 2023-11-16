@@ -1,16 +1,12 @@
-import Home from "./pages/home/Home";
-import TopBar from "./topbar/TopBar"
-
+import React from "react";
+import TopBar from "./components/topbar/TopBar";
+import Single from "./pages/single/Single";
 
 export default function App() {
   return (
     <div>
       <TopBar />
-      <Home />
+      <Single />
     </div>
   );
-
 }
-
-
-  

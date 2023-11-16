@@ -1,18 +1,17 @@
-import React from 'react'
-import './home.css'
-import Header from '../../header/Header'
-import Posts from '../../posts/Posts'
-import Sidebar from '../../sidebar/Sidebar'
-
+import React from "react";
+import "./home.css";
+import Header from "../../components/header/Header";
+import Post from "../../components/post/Post";
+import Sidebar from "../../components/sidebar/Sidebar";
 
 export default function Home() {
   return (
     <div>
       <Header />
-      <div className='home'>
-        <Posts />
-        <Sidebar />
+      <div className="home">
+        <Post/>
+        <Sidebar/>
       </div>
     </div>
-  )
+  );
 }
